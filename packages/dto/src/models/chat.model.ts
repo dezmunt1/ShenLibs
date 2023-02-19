@@ -2,7 +2,10 @@ import { Schema, model } from 'mongoose';
 import { ChatDocument } from '../contracts';
 
 const chatSchema = new Schema<ChatDocument>({
-  chatId: Number,
+  chatId: {
+    type: Number,
+    unique: true,
+  },
   description: String,
   photoLogo: Object,
   title: String,

@@ -1,5 +1,11 @@
 # @shenlibs/dto
 
+## 0.0.4
+
+### Patch Changes
+
+- Update user-model
+
 ## 0.0.3
 
 ### Patch Changes
