@@ -1,6 +1,6 @@
 {
   "name": "@shenlibs/dto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "require": "./dist/index.ts",
+      "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     }
   },
