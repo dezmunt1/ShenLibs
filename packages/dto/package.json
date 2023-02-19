@@ -1,6 +1,6 @@
 {
   "name": "@shenlibs/dto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,5 +32,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dezmunt1/ShenLibs.git"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
 }
