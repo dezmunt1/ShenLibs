@@ -1,5 +1,11 @@
 # @shenlibs/dto
 
+## 0.0.5
+
+### Patch Changes
+
+- Add user link when created new postme entity
+
 ## 0.0.4
 
 ### Patch Changes

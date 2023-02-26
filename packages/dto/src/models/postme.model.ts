@@ -13,6 +13,10 @@ const postmeSchema = new Schema<PostmeDocument>({
   password: String,
   protected: Boolean,
   createdDate: Date,
+  createdByUser: {
+    type: Types.ObjectId,
+    ref: 'UserModel',
+  },
   lastUpdateDate: Date,
   subscribers: [
     {

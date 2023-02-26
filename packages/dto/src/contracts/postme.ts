@@ -24,6 +24,7 @@ export interface Postme {
   password: string;
   protected: boolean;
   createdDate: Date;
+  createdByUser: UserDocument;
   lastUpdateDate: Date;
   subscribers: UserDocument[];
   content: Record<ContentType, Content[]>;
